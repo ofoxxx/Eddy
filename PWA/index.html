@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+	<link rel="icon" type="image/png" sizes="512x512" href="/icons/512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/180x180.png">
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileImage" content="/icons/144x144.png">
+    <meta name="msapplication-TileColor" content="#b8cddd">
+    <meta name="theme-color" content="#b8cddd">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="/manifest.json">
+
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js').then(function (registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+    </script>
+
+	<script type="text/javascript" >
+		function onLoad()
+		{
+		}
+	</script>
+
+	
+	<title>Eddy: your knowlegebase</title>
+	<meta name="Description" content="Personal knowlegebase.">
+</head>
+<body onload="onLoad()">
+</body>
+<div>
+</div>
+</html>

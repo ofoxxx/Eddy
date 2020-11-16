@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="750"
+   height="750"
+   viewBox="0 0 198.4375 198.4375"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="main (bw).svg">
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0826667"
+     inkscape:cx="375"
+     inkscape:cy="375"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px"
+     showguides="false" />
+  <g
+     id="layer3"
+     inkscape:groupmode="layer"
+     inkscape:label="Back"
+     style="display:inline">
+    <g
+       id="group1"
+       inkscape:label="Problem"
+       style="display:inline">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:6.87917;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="circle1"
+         cx="111.65413"
+         cy="54.239571"
+         r="30.956188"
+         inkscape:label="small round" />
+    </g>
+  </g>
+  <g
+     id="layer2"
+     inkscape:groupmode="layer"
+     inkscape:label="Middle"
+     style="display:inline">
+    <g
+       id="group2"
+       inkscape:label="Decision">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.40833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect1"
+         width="87.188019"
+         height="113.64635"
+         x="23.547916"
+         y="55.297916"
+         inkscape:label="rect" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:6.35;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 40.48125,76.973548 53.519471,-0.24438"
+         id="path1"
+         inkscape:label="line1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:6.35;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 40.48125,90.202716 53.519471,-0.24438"
+         id="path2"
+         inkscape:label="line2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:6.35;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 40.48125,103.4319 53.519471,-0.24438"
+         id="path3"
+         inkscape:label="line3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:6.35;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 40.48125,116.66117 53.519471,-0.24438"
+         id="path4"
+         inkscape:label="line4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:6.35;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 40.48125,129.89021 53.519471,-0.24438"
+         id="path5"
+         inkscape:label="line5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:6.35;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 40.48125,143.11938 94.000721,142.875"
+         id="path6"
+         inkscape:label="line6" />
+    </g>
+  </g>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Front"
+     style="display:inline">
+    <g
+       id="group3"
+       inkscape:label="Result">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.93727;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="circle2"
+         cx="125.67709"
+         cy="125.67709"
+         r="48.948032"
+         inkscape:label="big round" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke-width:0.246005"
+         d="m 116.11273,149.24778 c -2.17583,-0.61489 -3.35971,-1.62258 -10.59476,-9.01793 -8.511625,-8.70022 -8.94538,-9.31378 -8.945053,-12.65292 1.6e-4,-1.63216 0.11597,-2.23974 0.639886,-3.35709 1.223697,-2.60974 3.024247,-4.13684 5.679767,-4.81715 1.62328,-0.41587 2.69754,-0.34362 4.75038,0.31947 1.06355,0.34354 1.85438,1.01501 5.84349,4.96149 2.71602,2.68698 4.6983,4.4684 4.81973,4.33134 0.57763,-0.65203 27.16219,-27.79679 28.73906,-29.344664 2.40724,-2.362983 3.94315,-3.097409 6.47763,-3.097409 2.26724,0 4.11602,0.764298 5.71233,2.361512 1.77482,1.775831 2.27669,3.093411 2.2798,5.985251 0.004,3.58554 -0.25279,3.9907 -6.62322,10.45521 -2.86666,2.90901 -11.01683,11.21168 -18.11148,18.45037 -7.09465,7.23869 -13.28719,13.48053 -13.7612,13.87076 -1.88761,1.55393 -4.6792,2.18116 -6.90636,1.55176 z"
+         id="path7"
+         inkscape:label="checkmark" />
+    </g>
+  </g>
+</svg>
