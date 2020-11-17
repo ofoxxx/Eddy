@@ -24,5 +24,22 @@
         "purpose": "maskable any",
 		"sizes": "any"
     }
-  ]
+  ],
+
+  "share_target": {
+    "action": "/aggregate",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link",
+      "files": [
+        {
+          "name": "Text",
+          "accept": "text/plain"
+        }
+      ]
+    }
+  }
 }
