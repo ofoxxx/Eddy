@@ -38,6 +38,46 @@
         {
           "name": "Text",
           "accept": "text/plain"
+        },
+        {
+          "name": "Rich Text",
+          "accept": "text/richtext"
+        },
+        {
+          "name": "RTF Text",
+          "accept": ["application/rtf", ".rtf"]
+        },
+        {
+          "name": "HTML Web page",
+          "accept": "text/html"
+        },
+        {
+          "name": "PDF Document",
+          "accept": "application/pdf"
+        },
+        {
+          "name": "BMP Image",
+          "accept": "image/bmp"
+        },
+        {
+          "name": "GIF Image",
+          "accept": "image/gif"
+        },
+        {
+          "name": "JPEG Image",
+          "accept": "image/jpeg"
+        },
+        {
+          "name": "PNG Image",
+          "accept": "image/png"
+        },
+        {
+          "name": "SVG Image",
+          "accept": "image/svg+xml"
+        },
+        {
+          "name": "TIFF Image",
+          "accept": "image/tiff"
         }
       ]
     }
