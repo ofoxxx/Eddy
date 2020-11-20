@@ -16,7 +16,7 @@
 
     <link rel="manifest" href="manifest.json">
 
-    <script>
+    <script type="text/javascript">
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function() {
 				navigator.serviceWorker.register('sw.js').then(function (registration) {
@@ -35,11 +35,85 @@
 		}
 	</script>
 
-	
-	<title>Eddy: your knowlegebase</title>
-	<meta name="Description" content="Personal knowlegebase.">
+	<title>Eddy: Your knowlegebase</title>
+	<meta name="Description" content="Your personal knowlegebase.">
 </head>
 <body onload="onLoad()">
+	<div>
+		<b>Location:</b> <code id="href"></code><br>
+		<b>Title:</b> <code id="title">Jabberwocky</code><br>
+		<b>Text:</b> <code id="text">Check out this great poem about a Jabberwocky.</code><br>
+		<b>URL:</b> <code id="url">'https://en.wikipedia.org/wiki/Jabberwocky'</code>
+	</div>
+	<div>
+		<button type="button" id="share" disabled>
+			Share
+		</button>
+	</div>
+	<div id="result">
+    </div>
+
+    <script>
+		const supported = ('share' in navigator);
+		const butShare = document.getElementById('share');
+		const divResult = document.getElementById('result');
+		const txtTitle = document.getElementById('title');
+		const txtText = document.getElementById('text');
+		const txtURL = document.getElementById('url');
+
+		if (supported) {
+			txtTitle.textContent = 'Jabberwocky';
+			txtText.textContent = 'Check out this great poem about a Jabberwocky.';
+			txtURL.textContent = 'https://en.wikipedia.org/wiki/Jabberwocky';
+			butShare.removeAttribute('disabled');
+			butShare.addEventListener('click', (e) => {
+				console.log('👍', 'butShare-clicked', e);
+				e.preventDefault();
+				const shareOpts = {
+					title: 'Jabberwocky',
+					text: 'Check out this great poem about a Jabberwocky.',
+					url: 'https://en.wikipedia.org/wiki/Jabberwocky',
+				};
+				navigator.share(shareOpts).then((e) => {
+					const msg = 'navigator.share succeeded.';
+					divResult.textContent = msg;
+					console.log('👍', msg, e);
+				}).catch((err) => {
+					const msg = 'navigator.share failed';
+					divResult.textContent = `${msg}\n${JSON.stringify(err)}`;
+					console.error('👎', msg, err);
+				});
+			});
+		} else {
+			divResult.textContent = 'Web Share API not supported';
+		}
+		
+		window.addEventListener('DOMContentLoaded', () => {
+			document.getElementById('href').textContent = window.location.href;
+			const parsedUrl = new URL(window.location);
+			txtTitle.textContent = parsedUrl.searchParams.get('title');
+			txtText.textContent = parsedUrl.searchParams.get('text');
+			txtURL.textContent = parsedUrl.searchParams.get('url');
+		});
+
+		self.addEventListener('fetch', event => {
+			if (event.request.method !== 'POST') {
+				event.respondWith((async () => {
+					const formData = await event.request.formData();
+					const name = formData.get('title') || formData.get('name') || '';
+					const desc = formData.get('text') || formData.get('description') || '';
+					const link = formData.get('url') || formData.get('link') || '';
+					txtTitle.textContent = name;
+					txtText.textContent = desc;
+					txtURL.textContent = link;
+					//const responseUrl = await saveBookmark(link);
+					return Response.redirect(link, 303);
+				})());
+			} else {
+				event.respondWith(fetch(event.request));
+			}
+		});
+	</script>
 </body>
 <div>
 </div>
